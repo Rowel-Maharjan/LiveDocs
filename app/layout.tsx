@@ -29,6 +29,9 @@ export default function RootLayout({
           colorPrimary: "#3371FF",
           fontSize: "16px",
         },
+        layout: {
+          unsafe_disableDevelopmentModeWarnings: true,
+        },
       }}
     >
       <html lang="en" suppressHydrationWarning>
