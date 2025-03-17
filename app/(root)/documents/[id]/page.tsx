@@ -1,7 +1,12 @@
 import React from "react";
+import CollaborativeRoom from "@/components/CollaborativeRoom";
 
 const Document: React.FC = () => {
-  return <div></div>;
+  return (
+    <main>
+      <CollaborativeRoom />;
+    </main>
+  );
 };
 
 export default Document;
